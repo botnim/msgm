@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSMRF", "MSMRF.vcxproj", "{D0DBA566-CB3B-49E4-B0D7-1875953017C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSMRFpc", "MSMRFpc.vcxproj", "{44B95FB8-DFAF-4E34-989F-4B752E408BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DBA566-CB3B-49E4-B0D7-1875953017C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0DBA566-CB3B-49E4-B0D7-1875953017C9}.Debug|Win32.Build.0 = Debug|Win32
+		{D0DBA566-CB3B-49E4-B0D7-1875953017C9}.Release|Win32.ActiveCfg = Release|Win32
+		{D0DBA566-CB3B-49E4-B0D7-1875953017C9}.Release|Win32.Build.0 = Release|Win32
+		{44B95FB8-DFAF-4E34-989F-4B752E408BC3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44B95FB8-DFAF-4E34-989F-4B752E408BC3}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

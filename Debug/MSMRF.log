@@ -1,0 +1,29 @@
+﻿Build started 11/8/2014 2:29:30 AM.
+     1>Project "C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.vcxproj" "/solution:C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Attempting inline build...
+         VisualGDB: Sending 22 updated source files to build machine...
+         VisualGDB: Executing prebuild actions
+         VisualGDB: Run "make CONFIG=Debug" in directory "/home/stav/MS-MRF/src" on stav@math00-lx (SSH)
+     1>make : warning : File `debug.mak' has modification time 33 s in the future
+         g++ -ggdb -ffunction-sections -std=c++0x -O0 -DFASTPDLABELVALUE=size_t -DFASTPDENERGYVALUE=double -DMRFLABELVALUE=int -DMRFENERGYVALUE=double -DMRFCOSTVALUE=double -DUSE_64_BIT_PTR_CAST -DWITH_CONICBUNDLE -DGCOENERGYVALUE=double -DGCOLABELVALUE=size_t -DVarID=size_t -DIL_STD -DMSMRF_LNX  -I/home/stav/Dev/hdf5-1.8.12/build/include -I/home/stav/Dev/opengm/include -I/home/stav/Dev/opengm/src/external/ConicBundle-v0.3.11.src-patched/include -I/home/stav/Dev/opengm/src/external/FastPD.src-patched -I/home/stav/Dev/opengm/src/external/TRWS-v1.3.src-patched -I/home/stav/Dev/opengm/src/external/GCO-v3.0.src-patched -I/home/stav/Dev/CPLEX/cplex/include -I/home/stav/Dev/CPLEX/concert/include -I/home/stav/Dev/opengm/src/external/QPBO-v1.3.src-patched -I/home/stav/Dev/opengm/src/external/MaxFlow-v3.02.src-patched -DDEBUG  -c MS-MRF-lnx.cpp -o Debug/MS-MRF-lnx.o -MD -MF Debug/MS-MRF-lnx.dep
+         In file included from /usr/include/c++/4.5/ext/hash_map:60:0,
+                          from /home/stav/Dev/opengm/include/opengm/inference/multicut.hxx:18,
+                          from stdafx.h:44,
+                          from MSMRF.hxx:7,
+                          from MS-MRF-lnx.cpp:7:
+     1>C:\Users\omerm\AppData\Local\VisualGDB\RemoteSourceCache\math00-lx\0000\include\c++\4.5\backward\backward_warning.h(28,2): warning : #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+         In file included from /home/stav/Dev/opengm/include/opengm/inference/external/gco.hxx:12:0,
+                          from stdafx.h:53,
+                          from MSMRF.hxx:7,
+                          from MS-MRF-lnx.cpp:7:
+     1>C:\Users\omerm\AppData\Local\VisualGDB\RemoteSourceCache\math00-lx\0010\GCO-v3.0.src-patched\GCoptimization.h(392,71): warning : overflow in implicit constant conversion
+         g++ -o Debug/MS-MRF-lnx -Wl,-gc-sections   -L/home/stav/Dev/hdf5-1.8.12/build/lib -L/home/stav/Dev/opengm/src/external/ConicBundle-v0.3.11.src-patched/lib -L/home/stav/Dev/opengm/src/external -L/home/stav/Dev/CPLEX/cplex/lib/x86-64_sles10_4.1/static_pic -L/home/stav/Dev/CPLEX/concert/lib/x86-64_sles10_4.1/static_pic -Wl,--start-group Debug/MS-MRF-lnx.o -lhdf5 -lhdf5_cpp -lhdf5_hl -lhdf5_hl_cpp -lcb -lexternal-library-fastpd -lexternal-library-mrf -lexternal-library-trws -lexternal-library-gco -lcplex -lilocplex -lconcert -lexternal-library-qpbo  -Wl,--rpath='$ORIGIN'   -Wl,--end-group
+     1>make : warning : Clock skew detected.  Your build may be incomplete.
+         VisualGDB: Executing postbuild actions
+     1>Done Building Project "C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.66

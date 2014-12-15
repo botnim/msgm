@@ -1,0 +1,17 @@
+﻿Build started 10/26/2014 3:27:16 PM.
+     1>Project "C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.vcxproj" "/solution:C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.sln" "/config:Release" "/platform:Win32"
+         VisualGDB: Attempting inline build...
+         VisualGDB: No file changes detected. If you believe it's a mistake, please clean the project and build it again.
+         VisualGDB: Executing prebuild actions
+         VisualGDB: Run "make CONFIG=Release" in directory "/home/stav/MS-MRF/src" on stav@math00-lx (SSH)
+     1>make : warning : File `Release/MS-MRF-lnx.dep' has modification time 91 s in the future
+         make: Nothing to be done for `all'.
+     1>make : warning : Clock skew detected.  Your build may be incomplete.
+         VisualGDB: Executing postbuild actions
+     1>Done Building Project "C:\Users\omerm\Dropbox\Weizmann\project\cpp\msmrf\MSMRF.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18
